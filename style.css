@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('image2.jpg');
+    background-size: cover;
+}
+
+.form {
+    width: 800px;
+    background-color: #eeeeee;
+    padding: 0 100px;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 100px;
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 90); /* Box shadow */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    padding: 10px;
+    border: 1px solid #ccc; /* Adding a border for better visibility */
+    border-radius: 5px; /* Rounded edges */
+    outline: none; /* Removing default outline */
+}
+
+.otpverify {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #82eec1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.otpverify {
+    display: none;
+}
