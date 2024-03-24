@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('trendy tunes(2).png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /* Make the background image cover the entire background area */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+  }
+
+  #header {
+    background-color: rgba(255, 255, 255, 0.7); /* Adding transparency */
+    padding: 20px;
+    text-align: center;
+  }
+  #header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333; /* Adjusting text color */
+  }
+  #header p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555; /* Adjusting text color */
+  }
+  #signup-form {
+background-color: rgba(255, 255, 255, 0.8); /* Adding transparency */
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+margin: 150px auto 50px auto; /* Adjusted margin */
+}
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .message {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    color: #155724;
+  }
+
+  #footer {
+    background-color: rgba(255, 255, 255, 0.7); /* Adding transparency */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
